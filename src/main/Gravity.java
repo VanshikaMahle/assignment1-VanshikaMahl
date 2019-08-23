@@ -18,6 +18,7 @@ public class Gravity {
         double time = 0.0;
         double speed = 0.0;
         double distance = 0.0;
+        double gravity = 9.8;
         Scanner scanner = new Scanner(System.in);
         time = scanner.nextDouble();
         speed = gravity * time;
